@@ -19,14 +19,14 @@ h1 {
     font-size: xxx-large;
 }
 
-form,
-section {
+form {
     display: flex;
     gap: 20px;
     width: 100%;
     max-width: 800px; /* Set a maximum width for the form */
     margin: 0 auto; /* Center the form horizontally */
 }
+
 
 form textarea {
     resize: none;
@@ -44,6 +44,14 @@ form button {
     cursor: pointer;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 50;
+    width: 100%;
+    max-width: 800px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+}
 
 @media (min-width: 768px) {
     form {
