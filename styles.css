@@ -47,10 +47,10 @@ form button {
 section {
     display: flex;
     flex-direction: column;
-    gap: 50;
     width: 100%;
     max-width: 800px; /* Set a maximum width for the form */
     margin: 0 auto; /* Center the form horizontally */
+    gap: 8px;
 }
 
 @media (min-width: 768px) {
