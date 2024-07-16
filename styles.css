@@ -23,17 +23,36 @@ form {
     display: flex;
     justify-content: center;
     gap: 20px;
+    width: 100%;
 }
 
 form textarea {
     resize: none;
     box-shadow: 4px 4px 8px #9207e2a4;
     min-height: 60px;
-    width: 100%;
+    /* width: 100%;
     padding: 18px;
+    max-width: 600px; */
 }
 
 form button {
     padding: 5px 25px;
     box-shadow: 4px 4px 8px #9207e2a4;
+    /* width: 100%;
+    max-width: 100px;
+    word-wrap: none; */
+}
+
+
+@media (min-width: 768px) {
+    form {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    form textarea {
+        width: 100%;
+        max-width: none;
+    }
+
 }
