@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Jaro", sans-serif;
+    font-size: large;
 }
 
 body {
@@ -53,7 +54,8 @@ section {
     gap: 8px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
+
     form {
         flex-direction: column;
         justify-content: center;
