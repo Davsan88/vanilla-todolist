@@ -27,6 +27,10 @@ form {
 
 form textarea {
     resize: none;
+    box-shadow: 4px 4px 8px #9207e2a4;
+    min-height: 60px;
+    width: 100%;
+    padding: 18px;
 }
 
 form button {
