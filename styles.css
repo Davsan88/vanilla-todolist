@@ -51,13 +51,32 @@ section {
     width: 100%;
     max-width: 800px; /* Set a maximum width for the form */
     margin: 0 auto; /* Center the form horizontally */
-    gap: 8px;
+    gap: 16px;
 }
+
+.todoContainer {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+
+.todo {
+    width: 100%;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
 
 .iconButton {
     background: transparent;
     border: none;
     outline: none;
+    cursor: pointer;
+    padding: 0 4px;
 }
 
 @media (min-width: 576px) {
