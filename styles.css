@@ -64,29 +64,29 @@ section h4 {
     align-items: center; /* Center items vertically */
     justify-content: space-between; /* Space between todo and icons */
     padding: 8px; /* Add padding for better spacing inside the container */
+    border-radius: 8px; /* Add border-radius for rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
-    
-}
-}
 }
 
 .todo {
-    width: 100%;
+    flex-grow: 1;
 }
 
 .icons {
     display: flex;
     flex-direction: row;
     width: auto;
+    gap: 6px;
 }
-
 
 .iconButton {
     background: transparent;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 0 4px;
+    padding: 4px 6px; /* Add padding for better click area */
+    border-radius: 4px;
+
 }
 
 @media (min-width: 576px) {
