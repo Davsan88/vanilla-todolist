@@ -25,7 +25,7 @@ form {
     gap: 20px;
     width: 100%;
     max-width: 800px; /* Set a maximum width for the form */
-    margin: 0 auto; /* Center the form horizontally */
+    margin: 0 auto 16px; /* Center the form horizontally */
 }
 
 
@@ -54,10 +54,20 @@ section {
     gap: 16px;
 }
 
+section h4 {
+    margin-bottom: 8px; /* Add margin-bottom for separation from todoContainer */
+}
+
 .todoContainer {
-    background-color: aqua;
     display: flex;
     flex-direction: row;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between todo and icons */
+    padding: 8px; /* Add padding for better spacing inside the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    
+}
+}
 }
 
 .todo {
