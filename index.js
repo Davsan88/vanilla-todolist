@@ -1,2 +1,2 @@
 const textarea = document.querySelector('textarea');
-addButton
+const addButton = document.getElementById('addButton')
