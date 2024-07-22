@@ -1,2 +1,3 @@
 const textarea = document.querySelector('textarea');
-const addButton = document.getElementById('addButton')
+const addButton = document.getElementById('addButton');
+const todoContainer = document.querySelector('.todoContainer');
