@@ -18,10 +18,11 @@ function addTodo() {
 // Function to update the user interface
 function updateUI() {
     // Initialize an empty string to build the new inner HTML
-    let newInnerHTML = ''
+    let newInnerHTML = '';
 
     // Iterate over each item in the todoList array
     todoList.forEach((todoElement) => {
+        // Append a new to-do item to the newInnerHTML string
         newInnerHTML += `
          <div class="todo">
             <p>${todoElement}</p>
@@ -34,10 +35,10 @@ function updateUI() {
                 </button>
             </div>
         </div>
-        `
-    })
-
-    todoContainer.innerHTML = newInnerHTML
+        `;
+    });
+    // Set the innerHTML of the todoContainer to the newly built HTML
+    todoContainer.innerHTML = newInnerHTML;
 }
 
 
