@@ -10,8 +10,8 @@ function addTodo() {
     if (!todo) { return; }  // If the textarea is empty, exit the function 
 
     console.log('Added todo: ', todo); // Log the added to-do item to the console (for debugging) 
-    todoList.push(todo)
-    textarea.value = '' // resets to empty
+    todoList.push(todo);  // Add the to-do item to the todoList array
+    textarea.value = ''; // resets to empty
     updateUI()
 }
 
