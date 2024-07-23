@@ -12,7 +12,7 @@ function addTodo() {
     console.log('Added todo: ', todo); // Log the added to-do item to the console (for debugging) 
     todoList.push(todo);  // Add the to-do item to the todoList array
     textarea.value = ''; // Resets the textarea element to empty
-    updateUI()
+    updateUI();  // Update the user interface
 }
 
 function updateUI() {
