@@ -17,7 +17,23 @@ function addTodo() {
 
 // Function to update the user interface (currently empty)
 function updateUI() {
+    todoList.forEach((todoElement) => {
+        newInnerHTML += `
+         <div class="todo">
+            <p>${todoElement}</p>
+            <div class="buttonContainer">
+                <button class="iconButton">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </button>
+                <button class="iconButton">
+                    <i class="fa-solid fa-eraser"></i>
+                </button>
+            </div>
+        </div>
+        `
+    }
 
+    )
 }
 
 
