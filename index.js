@@ -15,6 +15,7 @@ function addTodo() {
     updateUI();  // Update the user interface
 }
 
+// Function to update the user interface (currently empty)
 function updateUI() {
 
 }
