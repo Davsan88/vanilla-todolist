@@ -17,6 +17,8 @@ function addTodo() {
 
 // Function to update the user interface (currently empty)
 function updateUI() {
+    let newInnerHTML = ''
+
     todoList.forEach((todoElement) => {
         newInnerHTML += `
          <div class="todo">
