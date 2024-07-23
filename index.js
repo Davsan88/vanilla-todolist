@@ -1,6 +1,6 @@
 const textarea = document.querySelector('textarea'); // Select the textarea element
 const addButton = document.getElementById('addButton'); // Select the add button by its ID
-const todoContainer = document.querySelector('.todoContainer');
+const todoContainer = document.querySelector('.todoContainer'); // Select the container where the to-do items will be added
 
 let todoList = []
 
