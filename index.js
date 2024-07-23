@@ -2,4 +2,6 @@ const textarea = document.querySelector('textarea');
 const addButton = document.getElementById('addButton');
 const todoContainer = document.querySelector('.todoContainer');
 
-console.log(todoContainer.innerHTML)
+let todoList = []
+
+
