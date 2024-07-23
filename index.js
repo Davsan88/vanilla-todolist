@@ -20,6 +20,7 @@ function updateUI() {
     // Initialize an empty string to build the new inner HTML
     let newInnerHTML = ''
 
+    // Iterate over each item in the todoList array
     todoList.forEach((todoElement) => {
         newInnerHTML += `
          <div class="todo">
