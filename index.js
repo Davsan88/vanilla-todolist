@@ -9,7 +9,7 @@ function addTodo() {
     const todo = textarea.value;  // Get the value from the textarea
     if (!todo) { return; }  // If the textarea is empty, exit the function 
 
-    console.log('Added todo: ', todo)
+    console.log('Added todo: ', todo); // Log the added to-do item to the console (for debugging) 
     todoList.push(todo)
     textarea.value = '' // resets to empty
     updateUI()
