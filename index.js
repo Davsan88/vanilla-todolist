@@ -4,8 +4,9 @@ const todoContainer = document.querySelector('.todoContainer'); // Select the co
 
 let todoList = []; // Initialize an empty array to store the to-do items
 
+// Function to add a new to-do item
 function addTodo() {
-    const todo = textarea.value
+    const todo = textarea.value;  // Get the value from the textarea
     if (!todo) { return }
 
     console.log('Added todo: ', todo)
