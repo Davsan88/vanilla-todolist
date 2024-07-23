@@ -33,9 +33,9 @@ function updateUI() {
             </div>
         </div>
         `
-    }
+    })
 
-    )
+    todoContainer.innerHTML = newInnerHTML
 }
 
 
