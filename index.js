@@ -4,4 +4,7 @@ const todoContainer = document.querySelector('.todoContainer');
 
 let todoList = []
 
-
+function addTodo() {
+    const todo = textarea.value
+    if (!todo) { return }
+}
