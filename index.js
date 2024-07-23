@@ -20,4 +20,6 @@ function updateUI() {
 }
 
 
-addButton.addEventListener('click', addTodo)
+// Add an event listener to the add button
+// When the button is clicked, the addTodo function will be called
+addButton.addEventListener('click', addTodo);
