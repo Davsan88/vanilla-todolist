@@ -1,4 +1,4 @@
-const textarea = document.querySelector('textarea');
+const textarea = document.querySelector('textarea'); // Select the textarea element
 const addButton = document.getElementById('addButton');
 const todoContainer = document.querySelector('.todoContainer');
 
