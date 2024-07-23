@@ -7,7 +7,7 @@ let todoList = []; // Initialize an empty array to store the to-do items
 // Function to add a new to-do item
 function addTodo() {
     const todo = textarea.value;  // Get the value from the textarea
-    if (!todo) { return }
+    if (!todo) { return; }  // If the textarea is empty, exit the function 
 
     console.log('Added todo: ', todo)
     todoList.push(todo)
