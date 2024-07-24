@@ -74,7 +74,7 @@ function updateUI() {
     // Set the innerHTML of the todoContainer to the newly built HTML
     todoContainer.innerHTML = newInnerHTML;
 
-    // Save data to localstorage
+    // Save the current state of the todoList to local storage
     localStorage.setItem('todos', JSON.stringify({ todoList }));
 };
 
