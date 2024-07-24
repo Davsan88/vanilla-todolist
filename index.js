@@ -4,6 +4,13 @@ const todoContainer = document.querySelector('.todoContainer'); // Select the co
 
 let todoList = []; // Initialize an empty array to store the to-do items
 
+function initialLoad() {
+    if (!localStorage.getItem('todos')) { return };
+    todoList = JSON.parse(localStorage.getItem('todos')).todoList;
+    updateUI();
+}
+
+
 // Function to add a new to-do item
 function addTodo() {
     const todo = textarea.value;  // Get the value from the textarea
