@@ -81,7 +81,7 @@ section h4 {
     flex-grow: 1;
     padding: 8px; /* Add padding for better spacing inside the container */
     border-radius: 8px; /* Add border-radius for rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    box-shadow: 0 4px 8px #9207e257; /* Add shadow for depth */
 }
 
 .buttonContainer {
