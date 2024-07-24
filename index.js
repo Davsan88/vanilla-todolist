@@ -59,7 +59,10 @@ function updateUI() {
     });
     // Set the innerHTML of the todoContainer to the newly built HTML
     todoContainer.innerHTML = newInnerHTML;
-}
+
+    // Save data to localstorage
+    localStorage.setItem('todos', JSON.stringify({ todoList }));
+};
 
 
 // Add an event listener to the add button
