@@ -15,6 +15,26 @@ function addTodo() {
     updateUI();  // Update the user interface
 }
 
+// Function to edit a to-do item
+function editTodo(index) {
+    // Get the current to-do text
+    const todo = todoList[index];
+    // Set the textarea value to the current to-do text
+    textarea.value = todo;
+    // Remove the to-do item from the list
+    todoList.splice(index, 1);
+    // Update the UI
+    updateUI();
+}
+
+// Function to delete a to-do item
+function deleteTodo(index) {
+    // Remove the to-do item from the list
+    todoList.splice(index, 1);
+    // Update the UI
+    updateUI();
+}
+
 // Function to update the user interface
 function updateUI() {
     // Initialize an empty string to build the new inner HTML
@@ -26,11 +46,11 @@ function updateUI() {
         newInnerHTML += `
          <div class="todo">
             <p>${todoElement}</p>
-            <div class="buttonContainer" onclick="editTodo(${todoIndex})">
-                <button class="iconButton">
+            <div class="buttonContainer">
+                <button class="iconButton" onclick="editTodo(${todoIndex})">
                     <i class="fa-solid fa-pen-to-square"></i>
                 </button>
-                <button class="iconButton" onclick="deleteTodo(${todoIndex})>
+                <button class="iconButton" onclick="deleteTodo(${todoIndex})">
                     <i class="fa-solid fa-eraser"></i>
                 </button>
             </div>
