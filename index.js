@@ -14,6 +14,7 @@ function initialLoad() {
     updateUI();
 }
 
+// Call initialLoad to populate the UI with saved data on page load
 initialLoad();
 
 
