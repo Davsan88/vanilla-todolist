@@ -10,6 +10,7 @@ function initialLoad() {
     if (!localStorage.getItem('todos')) { return; }
     // Parse the 'todos' data and assign it to the todoList array
     todoList = JSON.parse(localStorage.getItem('todos')).todoList;
+    // Update the user interface to reflect the loaded data
     updateUI();
 }
 
