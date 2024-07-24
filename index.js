@@ -21,16 +21,16 @@ function updateUI() {
     let newInnerHTML = '';
 
     // Iterate over each item in the todoList array
-    todoList.forEach((todoElement) => {
+    todoList.forEach((todoElement, todoIndex) => {
         // Append a new to-do item to the newInnerHTML string
         newInnerHTML += `
          <div class="todo">
             <p>${todoElement}</p>
-            <div class="buttonContainer">
+            <div class="buttonContainer" onclick="editTodo(${todoIndex})">
                 <button class="iconButton">
                     <i class="fa-solid fa-pen-to-square"></i>
                 </button>
-                <button class="iconButton">
+                <button class="iconButton" onclick="deleteTodo(${todoIndex})>
                     <i class="fa-solid fa-eraser"></i>
                 </button>
             </div>
