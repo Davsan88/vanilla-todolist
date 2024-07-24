@@ -4,6 +4,7 @@ const todoContainer = document.querySelector('.todoContainer'); // Select the co
 
 let todoList = []; // Initialize an empty array to store the to-do items
 
+// Function to load the initial data from local storage
 function initialLoad() {
     if (!localStorage.getItem('todos')) { return };
     todoList = JSON.parse(localStorage.getItem('todos')).todoList;
