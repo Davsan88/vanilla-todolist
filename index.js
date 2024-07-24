@@ -1,4 +1,4 @@
-const textarea = document.querySelector('textarea'); // Select the textarea element
+const textarea = document.querySelector('#taskInput'); // Select the textarea element by its ID
 const addButton = document.getElementById('addButton'); // Select the add button by its ID
 const todoContainer = document.querySelector('.todoContainer'); // Select the container where the to-do items will be added
 
@@ -45,3 +45,18 @@ function updateUI() {
 // Add an event listener to the add button
 // When the button is clicked, the addTodo function will be called
 addButton.addEventListener('click', addTodo);
+
+
+console.log('Textarea:', textarea);
+console.log('Add Button:', addButton);
+console.log('Todo Container:', todoContainer);
+
+if (textarea === null) {
+    console.error('Textarea element not found.');
+}
+if (addButton === null) {
+    console.error('Add button element not found.');
+}
+if (todoContainer === null) {
+    console.error('Todo container element not found.');
+}
