@@ -10,6 +10,8 @@ function initialLoad() {
     updateUI();
 }
 
+initialLoad();
+
 
 // Function to add a new to-do item
 function addTodo() {
