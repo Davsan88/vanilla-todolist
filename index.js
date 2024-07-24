@@ -6,7 +6,9 @@ let todoList = []; // Initialize an empty array to store the to-do items
 
 // Function to load the initial data from local storage
 function initialLoad() {
-    if (!localStorage.getItem('todos')) { return };
+    // Check if 'todos' data exists in local storage
+    if (!localStorage.getItem('todos')) { return; }
+    
     todoList = JSON.parse(localStorage.getItem('todos')).todoList;
     updateUI();
 }
