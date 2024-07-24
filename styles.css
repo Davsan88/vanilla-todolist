@@ -70,16 +70,18 @@ section h4 {
 
 .todoContainer {
     display: flex;
-    flex-direction: row;
-    align-items: center; /* Center items vertically */
-    justify-content: space-between; /* Space between todo and icons */
-    padding: 8px; /* Add padding for better spacing inside the container */
-    border-radius: 8px; /* Add border-radius for rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    flex-direction: column;
 }
 
 .todo {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between todo and icons */
     flex-grow: 1;
+    padding: 8px; /* Add padding for better spacing inside the container */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 }
 
 .buttonContainer {
