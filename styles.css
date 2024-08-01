@@ -16,13 +16,16 @@ body {
 
 /* Dark Mode */
 body.dark-mode {
-    background-color: #121212; /* Darker background */
-    color: #e0e0e0; /* Light gray text */
+    background-color: #1e1e1e; /* Darker background */
+    color: #d4d4d4; /* Light gray text */
 }
 
 .dark-mode #heading {
-    background-color: #121212;
+    background-color: #1e1e1e; /* Dark gray background */
+    border-bottom: 1px solid #333; /* Subtle border for separation */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Soft shadow for depth */
 }
+
 
 .dark-mode h1 {
     text-shadow: 4px 4px 8px #6200ea; /* Softer shadow */
