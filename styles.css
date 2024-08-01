@@ -31,9 +31,13 @@ body.dark-mode {
     color: #bb86fc; /* Softer color for the heading */
 }
 
-.dark-mode #toggleTheme {
-    background-color: #3700b3; /* Darker button background */
+.dark-mode #toggleBtn {
+    background-color: #4b0082; /* Dark purple background */
     color: #ffffff; /* White text */
+}
+
+.dark-mode #toggleBtn:hover {
+    background-color: #6200ea; /* Hover effect with lighter purple */
 }
 
 /* Light Mode */
