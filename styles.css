@@ -20,7 +20,19 @@ body.dark-mode {
     color: #e0e0e0; /* Light gray text */
 }
 
+.dark-mode #heading {
+    background-color: #121212;
+}
 
+.dark-mode h1 {
+    text-shadow: 4px 4px 8px #6200ea; /* Softer shadow */
+    color: #bb86fc; /* Softer color for the heading */
+}
+
+.dark-mode #toggleTheme {
+    background-color: #3700b3; /* Darker button background */
+    color: #ffffff; /* White text */
+}
 
 /* Light Mode */
 body.light-mode {
