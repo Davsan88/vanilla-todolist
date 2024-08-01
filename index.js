@@ -104,7 +104,7 @@ window.addEventListener('load', () => {
         body.classList.add('light-mode'); // Default to light mode if no theme is saved
 
     }
-})
+});
 
 
 // Add an event listener to the add button
