@@ -40,6 +40,16 @@ body.dark-mode {
     background-color: #6200ea; /* Hover effect with lighter purple */
 }
 
+.dark-mode textarea, 
+.dark-mode input, 
+.dark-mode button {
+    background-color: #2c2c2c; /* Dark background for input elements */
+    color: #d4d4d4; /* Light gray text */
+    border: 1px solid #6200ea; /* Purple border */
+}
+
+
+
 /* Light Mode */
 body.light-mode {
     background-color: white;
