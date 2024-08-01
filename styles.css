@@ -54,7 +54,10 @@ body.dark-mode {
     box-shadow: 0 4px 8px #000000; /* Subtle shadow */
 }
 
-
+.dark-mode .iconButton {
+    background-color: #444444; /* Darker background for icon buttons */
+    color: #d4d4d4; /* Light gray text */
+}
 
 
 /* Light Mode */
