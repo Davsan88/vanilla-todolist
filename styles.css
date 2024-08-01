@@ -20,6 +20,18 @@ h1 {
     font-size: xxx-large;
 }
 
+.toggleTheme {
+    padding: 8px 25px;
+    box-shadow: 4px 4px 8px #9207e2a4;
+    width: auto;  /* Takes only as much space as needed */
+    white-space: nowrap; /* Prevents text wrapping inside the button */
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for multiple properties */
+    border: none;
+    outline: none;
+    border-radius: 8px; /* Add border-radius for rounded corners */
+}
+
 form {
     display: flex;
     gap: 20px;
