@@ -16,16 +16,17 @@ body {
 
 /* Dark Mode */
 body.dark-mode {
-    background-color: #333;
-    color: white
+    background-color: #121212; /* Darker background */
+    color: #e0e0e0; /* Light gray text */
 }
+
+
 
 /* Light Mode */
 body.light-mode {
     background-color: white;
     color:black;
 }
-
 
 /* Heading Styles */
 #heading {
