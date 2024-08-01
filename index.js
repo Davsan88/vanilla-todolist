@@ -85,7 +85,7 @@ function updateUI() {
 function toggleMode() {
     // Check if the body currently has the 'dark-mode' class
     if (body.classList.contains('dark-mode')) {
-        body.classList.remove('dark-mode');
+        body.classList.remove('dark-mode'); // Remove 'dark-mode' class
         body.classList.add('light-mode');
         localStorage.setItem('theme', 'light'); // Save to local storage
     }  else { 
