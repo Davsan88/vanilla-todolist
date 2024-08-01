@@ -12,6 +12,8 @@ body {
     gap: 28px;
     padding: 18px;
     min-height: 100vh;
+    background-color: white;
+    color: #333333;
 }
 
 /* Dark Mode */
@@ -59,14 +61,11 @@ body.dark-mode {
     color: #d4d4d4; /* Light gray text */
 }
 
-
-/* Light Mode */
-body.light-mode {
-    background-color: white;
-    color:black;
+.dark-mode .iconButton:hover {
+    background-color: #555555; /* Lighter hover effect for icon buttons */
 }
 
-/* Heading Styles */
+
 #heading {
     background-color: white;
     display: flex;
@@ -98,7 +97,7 @@ h1 {
 }
 
 #toggleBtn:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #9207e2a4;
     box-shadow: 6px 6px 12px #9207e2a4; /* Slightly larger shadow on hover */
 }
 
@@ -110,6 +109,8 @@ form {
     max-width: 800px; /* Set a maximum width for the form */
     margin: 0 auto 16px; /* Center the form horizontally */
 }
+
+
 
 
 form textarea {
@@ -134,8 +135,9 @@ form button {
 }
 
 form button:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    /* background-color: rgba(0, 0, 0, 0.1); */
     box-shadow: 6px 6px 12px #9207e2a4; /* Slightly larger shadow on hover */
+    background-color: #9207e2a4;
 }
 
 section {
