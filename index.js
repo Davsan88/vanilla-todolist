@@ -2,6 +2,8 @@ const textarea = document.querySelector('#taskInput'); // Select the textarea el
 const addButton = document.getElementById('addButton'); // Select the add button by its ID
 const todoContainer = document.querySelector('.todoContainer'); // Select the container where the to-do items will be added
 const toggleBtn = document.getElementById('toggleBtn'); // Select the toggle button element
+const body = document.querySelector('body'); // Select the body element to apply the theme classes
+
 
 let todoList = []; // Initialize an empty array to store the to-do items
 
