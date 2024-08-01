@@ -87,11 +87,11 @@ function toggleMode() {
     if (body.classList.contains('dark-mode')) {
         body.classList.remove('dark-mode'); // Remove 'dark-mode' class
         body.classList.add('light-mode'); // Add 'light-mode' class
-        localStorage.setItem('theme', 'light'); // Save to local storage
+        localStorage.setItem('theme', 'light'); // Save 'light' theme to local storage
     }  else { 
         body.classList.remove('light-mode');
         body.classList.add('dark-mode');
-        localStorage.setItem('theme', 'dark'); // Save to local storage
+        localStorage.setItem('theme', 'dark'); // Save 'dark' theme to local storage
     }
 }
 
