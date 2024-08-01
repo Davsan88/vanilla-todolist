@@ -18,54 +18,75 @@ body {
 
 /* Dark Mode */
 body.dark-mode {
-    background-color: #1e1e1e; /* Darker background */
-    color: #d4d4d4; /* Light gray text */
+    background-color: #121212;
+    color: #e0e0e0;
 }
 
-.dark-mode #heading {
-    background-color: #2c2c2c; /* Slightly lighter dark background */
-    border-bottom: 1px solid #444; /* Subtle border for separation */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Soft shadow for depth */
+body.dark-mode #heading {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
 }
 
-.dark-mode h1 {
-    text-shadow: 4px 4px 8px #6200ea; /* Softer shadow */
-    color: #bb86fc; /* Softer color for the heading */
+body.dark-mode h1 {
+    text-shadow: 4px 4px 8px #9207e2;
 }
 
-.dark-mode #toggleBtn {
-    background-color: #4b0082; /* Dark purple background */
-    color: #ffffff; /* White text */
+body.dark-mode #toggleBtn {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    box-shadow: 4px 4px 8px #9207e2;
 }
 
-.dark-mode #toggleBtn:hover {
-    background-color: #6200ea; /* Hover effect with lighter purple */
+body.dark-mode #toggleBtn:hover {
+    background-color: #9207e2;
+    color: #e0e0e0;
+    box-shadow: 6px 6px 12px #4e4e4e;
 }
 
-.dark-mode textarea, 
-.dark-mode input, 
-.dark-mode button {
-    background-color: #2c2c2c; /* Dark background for input elements */
-    color: #d4d4d4; /* Light gray text */
-    border: 1px solid #6200ea; /* Purple border */
+body.dark-mode form textarea {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    box-shadow: 4px 4px 8px #9207e2;
 }
 
-.dark-mode .todo {
-    background-color: #2e2e2e; /* Slightly lighter background for todo items */
-    color: #d4d4d4; /* Light gray text */
-    box-shadow: 0 4px 8px #000000; /* Subtle shadow */
+body.dark-mode form button {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    box-shadow: 4px 4px 8px #9207e2;
 }
 
-.dark-mode .iconButton {
-    background-color: #444444; /* Darker background for icon buttons */
-    color: #d4d4d4; /* Light gray text */
+body.dark-mode form button:hover {
+    background-color: #9207e2;
+    color: #e0e0e0;
+    box-shadow: 6px 6px 12px #4e4e4e;
 }
 
-.dark-mode .iconButton:hover {
-    background-color: #555555; /* Lighter hover effect for icon buttons */
+body.dark-mode section {
+    background-color: #121212;
 }
 
+body.dark-mode .todoContainer {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
 
+body.dark-mode .todo {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    box-shadow: 0 4px 8px #9207e257;
+}
+
+body.dark-mode .iconButton {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
+
+body.dark-mode .iconButton:hover {
+    background-color: #9207e2;
+    color: #e0e0e0;
+}
+
+/* Default (light) mode */
 #heading {
     background-color: white;
     display: flex;
@@ -188,7 +209,8 @@ section h4 {
 }
 
 .iconButton:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    background-color: #9207e2a4;
 }
 
 @media (min-width: 576px) {
