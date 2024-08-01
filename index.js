@@ -95,6 +95,7 @@ function toggleMode() {
     }
 }
 
+// Load the theme from local storage on page load
 window.addEventListener('load', () => {
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme) {
