@@ -83,6 +83,7 @@ function updateUI() {
 
 // Function to toggle between light and dark mode
 function toggleMode() {
+    // Check if the body currently has the 'dark-mode' class
     if (body.classList.contains('dark-mode')) {
         body.classList.remove('dark-mode');
         body.classList.add('light-mode');
