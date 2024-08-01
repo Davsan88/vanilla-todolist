@@ -48,6 +48,13 @@ body.dark-mode {
     border: 1px solid #6200ea; /* Purple border */
 }
 
+.dark-mode .todo {
+    background-color: #2e2e2e; /* Slightly lighter background for todo items */
+    color: #d4d4d4; /* Light gray text */
+    box-shadow: 0 4px 8px #000000; /* Subtle shadow */
+}
+
+
 
 
 /* Light Mode */
