@@ -99,7 +99,7 @@ function toggleMode() {
 window.addEventListener('load', () => {
     const savedTheme = localStorage.getItem('theme'); // Retrieve saved theme from local storage
     if (savedTheme) {
-        body.classList.add(savedTheme + '-mode')
+        body.classList.add(savedTheme + '-mode'); // Apply the saved theme
     } else { 
         body.classList.add('light-mode'); // Default to light mode
 
