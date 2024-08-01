@@ -94,7 +94,15 @@ function toggleMode() {
     }
 }
 
+window.addEventListener('load', () => {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+        body.classList.add(savedTheme + '-mode')
+    } else { 
+        body.classList.add('light-mode'); // Default to light mode
 
+    }
+})
 
 
 // Add an event listener to the add button
