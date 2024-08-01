@@ -97,7 +97,7 @@ function toggleMode() {
 
 // Load the theme from local storage on page load
 window.addEventListener('load', () => {
-    const savedTheme = localStorage.getItem('theme');
+    const savedTheme = localStorage.getItem('theme'); // Retrieve saved theme from local storage
     if (savedTheme) {
         body.classList.add(savedTheme + '-mode')
     } else { 
