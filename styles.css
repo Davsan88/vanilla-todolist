@@ -36,6 +36,20 @@ h1 {
     border-radius: 8px; /* Add border-radius for rounded corners */
 }
 
+/* Dark Mode */
+body.dark-mode {
+    background-color: #333;
+    color: white
+}
+
+/* Light Mode */
+body.light-mode {
+    background-color: white;
+    color:black;
+}
+
+
+
 form {
     display: flex;
     gap: 20px;
