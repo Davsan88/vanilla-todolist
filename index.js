@@ -81,12 +81,33 @@ function updateUI() {
     localStorage.setItem('todos', JSON.stringify({ todoList }));
 };
 
+// Function to toggle between light and dark mode
+function toggleMode() {
+    if (body.classList.contains('dark-mode')) {
+        body.classList.remove('dark-mode');
+        body.classList.add('light-mode');
+        localStorage.setItem('theme', 'light'); // Save to local storage
+    }  else { 
+        body.classList.remove('light-mode');
+        body.classList.add('dark-mode');
+        localStorage.setItem('theme', 'dark'); // Save to local storage
+    }
+}
+
+
+
 
 // Add an event listener to the add button
 // When the button is clicked, the addTodo function will be called
 addButton.addEventListener('click', addTodo);
 
 
+// Add an event listener to the toggle mode button
+// When the button is clicked, the toggleMode function will be called
+toggleBtn.addEventListener('click', toggleMode);
+
+
+// Debugging
 console.log('Textarea:', textarea);
 console.log('Add Button:', addButton);
 console.log('Todo Container:', todoContainer);
