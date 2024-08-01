@@ -90,7 +90,7 @@ function toggleMode() {
         localStorage.setItem('theme', 'light'); // Save 'light' theme to local storage
     }  else { 
         body.classList.remove('light-mode'); // Remove 'light-mode' class
-        body.classList.add('dark-mode');
+        body.classList.add('dark-mode'); // Add 'dark-mode' class
         localStorage.setItem('theme', 'dark'); // Save 'dark' theme to local storage
     }
 }
