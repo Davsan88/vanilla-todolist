@@ -101,7 +101,7 @@ window.addEventListener('load', () => {
     if (savedTheme) {
         body.classList.add(savedTheme + '-mode'); // Apply the saved theme
     } else { 
-        body.classList.add('light-mode'); // Default to light mode
+        body.classList.add('light-mode'); // Default to light mode if no theme is saved
 
     }
 })
